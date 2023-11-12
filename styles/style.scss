@@ -1,0 +1,13 @@
+$primary-color: blue;
+
+h1{
+    color: steelblue
+}
+
+p{
+    background-color: $primary-color;
+}
+
+ul{
+    border: 2px solid $primary-color;
+}
