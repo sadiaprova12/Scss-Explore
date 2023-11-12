@@ -1,3 +1,5 @@
+@use 'variables';
+
 $primary-color: blue;
 
 h1{
@@ -9,6 +11,7 @@ p{
     color: white;
     margin: 15px;
     padding: 15px;
+    font-size: variables.$large-font;
 }
 nav {
     ul {
